@@ -10,7 +10,7 @@ public class Panagram
     BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
     System.out.println("Enter the string");
     String str=br.readLine();
-    for(int i=0;i<=str.length();i++)
+    for(int i=0;i<str.length();i++)
     {
       
       if((str.charAt(i)>='A' && str.charAt(i)<='Z') ||( str.charAt(i)>='a' && str.charAt(i)<='z'))
